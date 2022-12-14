@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+
+{% block header %}
+
+<header>
+    <img>
+    <button>
+        <img>
+    </button>
+    <button>
+        <img> 
+    </button>
+</header>
+
+{% endblock %}
+
+
+{% block main %}
+
+<main>
+    <h1>Processo Seletivo</h1>
+    <h2>Todos os semestre a</h2>
+    <form method="post">
+        {% csrf_token %}
+        <input type="text" id="nome" placeholder="Nome Completo" name="nome" required>
+        <input type="text" id="email" placeholder="Email Insper" name="email" required>
+        <input type="text" id="curso" placeholder="Curso" name="curso" required>
+        <input type="text" id="Semestre" placeholder="Semestre do Curso" name="Semestre" required>
+        <input type="text" id="Telefone" placeholder="Telefone" name="Telefone" required>
+    </form>
+</main>
+
+{% endblock %}
