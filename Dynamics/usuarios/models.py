@@ -1,11 +1,5 @@
-from email import message
-from email.mime import image
-from email.policy import default
 from django.db import models
 from django.contrib.auth.models import User
-from psycopg2 import cursor
-from sqlalchemy import null
-import datetime
 
 
 class Profile(models.Model):
