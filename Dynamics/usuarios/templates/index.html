@@ -1,6 +1,5 @@
-{% extends "base.html" %}
+{% include 'base.html' %}
 
-{% block header %}
 
 <header>
     <img>
@@ -12,17 +11,12 @@
     </button>
 </header>
 
-{% endblock %}
-
-
-{% block main %}
-
 <main>
     <h1>Processo Seletivo</h1>
     <h2>A Insper Dynamics procura alunos ágeis, vorazes por conhecimento e dispostos a conhecerem e inovarem. Para isso nosso Processo Seletivo não busca te submeter a uma prova que te avaliará como aluno, mas uma serie de processos para conhecermos seu Background, seus objetivos e te ajudar a construir seu futuro.</h2>
     <h3>1° Fase - 📩Apresentação</h3>
     <p>É uma fase que busca conhecer o seu Background, nela esperamos que você nos envie, seja seu LinkedIn, Currículo ou texto de apresentação, para conseguirmos entender melhor quem é você, de onde você veio e como podemos te ajudar em sua jornada.</p>
-    <h3>2° Fase - 👩🏻‍🤝‍👨🏾Team Work👩🏾‍🤝‍👨🏼</h3>
+    <h3>2° Fase - 👩🏻‍🤝‍👨🏾Team Work👩🏾‍🤝‍👨🏼</h3>
     <p>Na Dynamics desenvolvemos diversos projetos de inteligência artificial, e para isso precisamos de membros com alta capacidade de trabalho em Equipe, para isso está etapa avaliará o seu desempenho para trabalhar com uma equipe de pessoas desconhecidas.</p>
     <h3>3° Fase - 🎙️Entrevista</h3>
     <p>Na útilma fase buscamos conhecer VOCÊ, entendendo melhor como as experiencias que você vivenciou ajudaram a construir seu caracter.</p>
@@ -35,5 +29,3 @@
         <input type="text" id="Telefone" placeholder="Telefone" name="Telefone" required>
     </form>
 </main>
-
-{% endblock %}
