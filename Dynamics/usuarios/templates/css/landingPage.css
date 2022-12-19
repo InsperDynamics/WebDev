@@ -1,0 +1,50 @@
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.Topo {
+    background-color: orangered;
+}
+
+.shortcuts {
+    padding: 5px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.row li {
+    padding: 0 5px;
+}
+
+.Flashcards {
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.Linha {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 1rem;
+}
+
+.Projetos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.Linha img {
+    width: 1rem;
+}
+
+.Saiba {
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: orangered;
+}

@@ -6,7 +6,7 @@ from .forms import *
 # Create your views here.
 
 
-def index(request):
+def processoSeletivoPage(request):
     if request.method == 'POST':
         nome = request.POST.get('nome')
         email = request.POST.get('email')
@@ -18,3 +18,5 @@ def index(request):
         PS.save()
     return render(request, 'index.html')
         
+def landingPage(request):
+    return render(request, 'landingPage.html')
