@@ -1,9 +1,55 @@
-header{
+.container-header{
+    display: flex;
     flex-direction: row;
     background-color: rgb(215, 104, 46);
     height: 5rem;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .logo-img{
-    height: 75%;
+    margin-top: 0.2rem;
+    margin-left: 0.8rem;
+    height: 3.4rem;
+    filter:drop-shadow(1px 1px 10px #53535312);
+}
+
+.container-icons{
+    display: flex;
+    align-items: center;
+    margin-right: 0.8rem;
+}
+
+.container-textos{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+.logo-linkedin{
+    height: 2.5rem;
+}
+
+.logo-instagram{
+    height: 3.9rem;
+}
+
+.header-text{
+    font-size: 1.3rem;
+    font-family: 'Inter';
+    margin-left: 2rem;
+    margin-right: 1rem;
+}
+
+a {
+    color: #000000;
+    text-decoration: none;
+}
+
+a:hover {
+    color:#000000; 
+    text-decoration:none; 
+    cursor:pointer;  
 }

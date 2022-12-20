@@ -2,14 +2,27 @@
 {% load static %}
 
 
-<header>
-    <img src="{% static 'img/logos/logoHorizontal-transparent.png' %}" class="logo-img">
-    <button>
-        <img>
-    </button>
-    <button>
-        <img> 
-    </button>
+<header class="container-header">
+    <div class="container-textos">
+        <img src = "{% static 'img/logos/horizontal-cinza.png' %}" class="logo-img">
+        <a href="/">
+            <p class="header-text">Sobre</p>
+        </a>
+        <a href="/">
+            <p class="header-text">Projetos</p>
+        </a>
+        <a href="/">
+            <p class="header-text">Processo Seletivo</p>
+        </a>
+    </div>
+    <div class="container-icons">
+        <a href="https://www.instagram.com/insper_dynamics/">
+            <img src="{% static 'img/icons/instagram.png' %}" class="logo-instagram">
+        </a>
+        <a href="https://www.linkedin.com/company/insper-dynamics/">
+            <img src="{% static 'img/icons/linkedin.png'%}" class="logo-linkedin"> 
+        </a>
+    </div>
 </header>
 
 <main>
