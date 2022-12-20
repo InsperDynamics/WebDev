@@ -53,3 +53,26 @@ a:hover {
     text-decoration:none; 
     cursor:pointer;  
 }
+
+p{
+    font-family: 'Inter', serif;
+}
+
+.container-main{
+    display: flex;
+    flex-direction: column;
+}
+
+.principal-text{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+.secondary-text{
+    font-size: 1.2rem;
+}
+
+.description-text{
+    font-weight: 200;
+}
