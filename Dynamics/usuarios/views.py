@@ -20,3 +20,6 @@ def processoSeletivoPage(request):
         
 def landingPage(request):
     return render(request, 'landingPage.html')
+
+def sobreNosPage(request):
+    return render(request, 'sobreNos.html')
