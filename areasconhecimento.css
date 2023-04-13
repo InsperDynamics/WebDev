@@ -4,7 +4,7 @@ body {
 .titulo {
     color: #D7682E;
     font-weight: 650;
-    margin-left: 252px;
+    margin-left: 302px;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -104,4 +104,13 @@ p{
     font-weight: 650;
     margin-left: 40px;   
     margin-top: 40px; 
+}
+.um {
+    margin-left: 25%;
+}
+.dois {
+    margin-left: 20%;
+}
+.tres {
+    margin-left: 25%
 }
