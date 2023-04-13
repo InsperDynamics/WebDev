@@ -105,12 +105,16 @@ p{
     margin-left: 40px;   
     margin-top: 40px; 
 }
+.container {
+    display: flex;
+    flex-direction: row;
+}
 .um {
-    margin-left: 25%;
+    flex:1;
 }
 .dois {
-    margin-left: 20%;
+    flex:3;
 }
 .tres {
-    margin-left: 25%
+    flex:1
 }
