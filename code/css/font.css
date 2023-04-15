@@ -1,0 +1,15 @@
+h1{
+    font-size: 3.5rem;
+    color: #D7682E;
+}
+
+.container-title{
+    font-size: 1.5rem;
+    width: 90%;
+    text-align: center;
+}
+
+.container-text{
+    font-size: 1rem;
+    width: 90%;
+}
