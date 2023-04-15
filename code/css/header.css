@@ -10,7 +10,7 @@ header {
 }
 .projetos, .selecao {
     font-size: 150%;
-    color:black;
+    color:white;
     text-decoration: none;
     font-family:"Inter", sans-serif;
     margin-top: 10px;
@@ -22,13 +22,16 @@ header {
     margin-left: 65px;
 }
 .linkedin {
-    margin-top: 10px;
-    margin-left:800px;
+    position:fixed;
+    right: 70px;
 }
 .instagram {
-    margin-top: 10px;
-    margin-left:8px;   
+    position:fixed;
+    right: 35px;
 }
 .logo {
     margin-left:15px;
+}
+.instagram, .linkedin {
+    margin-top: 10px;
 }
