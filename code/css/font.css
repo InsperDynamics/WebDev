@@ -4,12 +4,26 @@ h1{
 }
 
 .container-title{
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     width: 90%;
     text-align: center;
 }
 
 .container-text{
-    font-size: 1rem;
+    font-size: 1.2rem;
     width: 90%;
+}
+
+.description{
+    font-size: 1.7rem;
+    width: 90%;
+    text-align: center;
+}
+
+.outside-text{
+    color: #D7682E;
+}
+
+.inside-text{
+    color: #FFFFFF;
 }
