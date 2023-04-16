@@ -9,7 +9,7 @@
     background: #FFFFFF;
     width: 20rem;
     height:18rem;
-    filter: drop-shadow(0 0 10px #D3D3D3)
+    filter: drop-shadow(0 0 10px #D3D3D3);
 }
 
 .div-inside{
@@ -23,7 +23,7 @@
     background: #D7682E;
     width: 20rem;
     height:18rem;
-    filter: drop-shadow(0 0 10px #D3D3D3)
+    filter: drop-shadow(0 0 10px #D3D3D3);
 }
 
 .right-border{
