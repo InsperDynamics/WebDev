@@ -1,0 +1,37 @@
+header {
+    position:absolute;
+    top:0px;
+    left:0px;
+    display:flex;
+    flex-wrap: wrap;
+    background-color: #D7682E;
+    padding: 20px 10px;
+    width: 100%;
+}
+.projetos, .selecao {
+    font-size: 150%;
+    color:white;
+    text-decoration: none;
+    font-family:"Inter", sans-serif;
+    margin-top: 10px;
+}
+.projetos {
+    margin-left:65px;
+}
+.selecao {
+    margin-left: 65px;
+}
+.linkedin {
+    position:fixed;
+    right: 70px;
+}
+.instagram {
+    position:fixed;
+    right: 35px;
+}
+.logo {
+    margin-left:15px;
+}
+.instagram, .linkedin {
+    margin-top: 10px;
+}
