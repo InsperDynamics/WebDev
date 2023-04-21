@@ -1,13 +1,23 @@
 header {
-    position:absolute;
+    display: flex;
+    position:fixed;
+
     top:0px;
     left:0px;
-    display:flex;
-    flex-wrap: wrap;
+
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+
     background-color: #D7682E;
-    padding: 20px 10px;
     width: 100%;
+    justify-content: space-between;
 }
+
+.div-header{
+    display: flex;
+    justify-content: center;
+}
+
 .projetos, .selecao {
     font-size: 150%;
     color:white;
@@ -16,22 +26,28 @@ header {
     margin-top: 10px;
 }
 .projetos {
-    margin-left:65px;
+    margin-left: 3.5rem;
 }
 .selecao {
-    margin-left: 65px;
+    margin-left: 3.5rem;
+
 }
 .linkedin {
-    position:fixed;
     right: 70px;
 }
 .instagram {
-    position:fixed;
     right: 35px;
+    margin-right: 2rem;
 }
 .logo {
-    margin-left:15px;
+    margin-left: 1.5rem;
 }
-.instagram, .linkedin {
-    margin-top: 10px;
+.instagram {
+    align-self: center;
+    margin-right: 1.5rem;
+}
+
+.linkedin {
+    align-self: center;
+    margin-right: 1rem;
 }
