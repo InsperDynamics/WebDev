@@ -37,3 +37,12 @@ body{
     text-align: flex-start;
     tab-size: 8;
 }
+
+.title-photo{
+    text-align: center;
+}
+
+.description-photo{
+    text-align: center;
+    font-size: 1.2rem;
+}
