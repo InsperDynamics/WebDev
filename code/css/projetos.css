@@ -1,0 +1,39 @@
+.img-who{
+    width: 15rem;
+    height: 15rem;
+    object-fit: cover;
+    object-position: 25% 55%;
+    border-radius: 50%;
+}
+
+body{
+    margin-top: 8rem;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+}
+
+.div-photo{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.margin-photo{
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+
+.paragraph{
+    font-size: 1.7rem;
+    text-align: flex-start;
+    tab-size: 8;
+}
