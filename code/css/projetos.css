@@ -8,6 +8,8 @@
 
 body{
     margin-top: 8rem;
+    font-family: "Inter";
+    font-size: 26px;
 }
 
 .column{
@@ -45,4 +47,16 @@ body{
 .description-photo{
     text-align: center;
     font-size: 1.2rem;
+}
+.funcoes {
+    text-align: center;
+    margin-top: -28px;
+    margin-left: 0px;
+}
+h2 {
+    margin-left: 5px;  
+    text-align: center;
+}
+h1 {
+    color:#D7682E;
 }
