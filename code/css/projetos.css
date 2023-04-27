@@ -46,3 +46,14 @@ body{
     text-align: center;
     font-size: 1.2rem;
 }
+
+.text-box-size{
+    display:flex;
+    flex-direction: column;
+    width: 95%;
+}
+
+.align{
+    display: flex;
+    justify-content: center;
+}
