@@ -8,6 +8,8 @@
 
 body{
     margin-top: 8rem;
+    font-family: "Inter";
+    font-size: 26px;
 }
 
 .column{
@@ -37,6 +39,18 @@ body{
     text-align: flex-start;
     tab-size: 8;
 }
+.funcoes {
+    text-align: center;
+    margin-top: -28px;
+    margin-left: 10px;
+}
+h2 {
+    margin-left: 15px;  
+    text-align: center;
+}
+h1 {
+    color:#D7682E;
+}
 
 .title-photo{
     text-align: center;
@@ -48,9 +62,8 @@ body{
 }
 
 .text-box-size{
-    display:flex;
-    flex-direction: column;
-    width: 95%;
+    padding-left: 2rem;
+    padding-right: 2rem;
 }
 
 .align{
