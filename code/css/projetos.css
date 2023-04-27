@@ -1,6 +1,6 @@
 .img-who{
-    width: 15rem;
-    height: 15rem;
+    width: 12rem;
+    height: 12rem;
     object-fit: cover;
     object-position: 25% 55%;
     border-radius: 50%;
@@ -8,8 +8,6 @@
 
 body{
     margin-top: 8rem;
-    font-family: "Inter";
-    font-size: 26px;
 }
 
 .column{
@@ -30,26 +28,17 @@ body{
 }
 
 .margin-photo{
-    margin-left: 4rem;
-    margin-right: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 3rem;
+    margin-right: 3rem;
 }
 
-.paragraph{
-    font-size: 1.7rem;
-    text-align: flex-start;
-    tab-size: 8;
-}
+
 .funcoes {
+    justify-self: flex-start;
     text-align: center;
-    margin-top: -28px;
-    margin-left: 10px;
-}
-h2 {
-    margin-left: 15px;  
-    text-align: center;
-}
-h1 {
-    color:#D7682E;
 }
 
 .title-photo{
@@ -63,8 +52,8 @@ h1 {
 
 
 .text-box-size{
-    padding-left: 2rem;
-    padding-right: 2rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
 }
 
 .align{
