@@ -60,3 +60,13 @@ h2 {
 h1 {
     color:#D7682E;
 }
+.text-box-size{
+    display:flex;
+    flex-direction: column;
+    width: 95%;
+}
+
+.align{
+    display: flex;
+    justify-content: center;
+}
