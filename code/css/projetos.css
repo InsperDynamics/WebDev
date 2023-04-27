@@ -42,12 +42,14 @@ body{
 .funcoes {
     text-align: center;
     margin-top: -28px;
-    margin-left: 0px;
+    margin-left: 10px;
 }
+
 h2 {
     margin-left: 5px;  
     text-align: center;
 }
+
 h1 {
     color:#D7682E;
 }
