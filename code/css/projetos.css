@@ -45,8 +45,7 @@ body{
 
 
 .funcoes {
-    justify-self: flex-start;
-    text-align: center;
+    margin-top: -1.7rem;
 }
 
 .title-photo{
