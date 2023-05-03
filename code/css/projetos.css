@@ -35,6 +35,14 @@ body{
     margin-right: 3rem;
 }
 
+.margin-kaggle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
 
 .funcoes {
     justify-self: flex-start;
