@@ -25,11 +25,40 @@
     background-color: #D7682E;
 }
 
+@media only screen and (max-height: 1200px) {
+    .div-outside{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: flex-end;
+        padding: 1.5rem;
+     
+        width: 22.29%;
+        height: 20rem;
+    }
+    
+    .div-center{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: flex-end;
+        padding: 1.5rem;
+    
+        width: 22.29%;
+        height: 20rem;
+        background-color: #D7682E;
+    }
+}
+
 .margin-top{
     margin-top: 2rem;
 }
 
-
+.text-align{
+    text-align: center;
+}
 
 .description{
     font-size: 1.7rem;
@@ -65,4 +94,16 @@
     font-size: 1rem;
     width: 63.63%;
     text-decoration: none;
+}
+
+h1{
+    color: #D7682E;
+}
+
+.all-height{
+    height: 100%;
+}
+
+.container-height{
+    height: rem;
 }
